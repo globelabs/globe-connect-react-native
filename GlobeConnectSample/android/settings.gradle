@@ -1,0 +1,5 @@
+rootProject.name = 'GlobeConnectSample'
+include ':react-native-globeconnect'
+project(':react-native-globeconnect').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-globeconnect/android')
+
+include ':app'

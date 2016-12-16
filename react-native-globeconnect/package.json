@@ -1,0 +1,17 @@
+{
+  "name": "react-native-globeconnect",
+  "version": "0.0.0",
+  "description": "",
+  "main": "GlobeConnect.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native"
+  ],
+  "author": "Charles Zamora <czamora@openovate.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "react-native": "0.39.2"
+  }
+}

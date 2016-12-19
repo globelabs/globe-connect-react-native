@@ -1,17 +1,26 @@
 {
   "name": "react-native-globeconnect",
-  "version": "0.0.0",
-  "description": "",
+  "version": "0.0.2",
+  "description": "Globe Connect API for React Native platform",
   "main": "GlobeConnect.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "react-native"
+    "react-native",
+    "globelabs",
+    "api",
+    "sms",
+    "globe"
   ],
   "author": "Charles Zamora <czamora@openovate.com>",
   "license": "MIT",
   "peerDependencies": {
     "react-native": "0.39.2"
+  },
+  "homepage": "https://github.com/globelabs/globe-connect-react-native",
+  "bugs" : {
+    "url" : "https://github.com/globelabs/globe-connect-react-native/issues",
+    "email" : "globelabs@globe.com.ph"
   }
 }

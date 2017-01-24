@@ -84,7 +84,7 @@ module.exports = {
 
                             args[0] = callback;
 
-                            sms[i].apply(self, args);
+                            authentication[i].apply(self, args);
 
                             return self;
                         }
@@ -133,7 +133,7 @@ module.exports = {
 
                             args[0] = callback;
 
-                            sms[i].apply(self, args);
+                            binary[i].apply(self, args);
 
                             return self;
                         }
@@ -178,7 +178,7 @@ module.exports = {
 
                             args[0] = callback;
 
-                            sms[i].apply(self, args);
+                            location[i].apply(self, args);
 
                             return self;
                         }
@@ -223,7 +223,7 @@ module.exports = {
 
                             args[0] = callback;
 
-                            sms[i].apply(self, args);
+                            payment[i].apply(self, args);
 
                             return self;
                         }
@@ -317,7 +317,7 @@ module.exports = {
 
                             args[0] = callback;
 
-                            sms[i].apply(self, args);
+                            subscriber[i].apply(self, args);
 
                             return self;
                         }
@@ -362,7 +362,7 @@ module.exports = {
 
                             args[0] = callback;
 
-                            sms[i].apply(self, args);
+                            ussd[i].apply(self, args);
 
                             return self;
                         }

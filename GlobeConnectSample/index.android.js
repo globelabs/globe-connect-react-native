@@ -19,19 +19,25 @@ function testAuthentication() {
       '5ozgSgeRyeHzacXo55TR65HnqoAESbAz',
       '3dbcd598f268268e13550c87134f8de0ec4ac1100cf0a68a2936d07fc9e2459e');
 
-  auth.getDialogUrl(function() {
-      console.log(arguments);
-  }, function() {
-      console.log(arguments);
-  });
+    auth.startAuthActivity(function() {
+        console.log(arguments);
+    }, function() {
+        console.log(arguments);
+    });
 
-  var code = 'G4HBMexKfaM9E7SG4LpkHRBoLGf9Go6qSnBno8HRKXnes7doqEukgq4bCq59nKfR7KX6Uorknysa8EXyHoxEaRhzGo57tLn4gduLkaE7S9ke9RtpBjgauaeRKpu4RcoX6y4cRaxuGzjkKuyzedXtkra8qSbe47LueyonxtgoEorhpkEoaHLkkResXyKR4U4K996f4EqB7CRLoKGuBjXorsAxnrpH9poqrSAEo6ef7XLGXHyK9R9SLregxfaM6XxH';
-
-  auth.getAccessToken(code, function() {
-      console.log(arguments);
-  }, function() {
-      console.log(arguments);
-  });
+  // auth.getDialogUrl(function() {
+  //     console.log(arguments);
+  // }, function() {
+  //     console.log(arguments);
+  // });
+  //
+  // var code = 'G4HBMexKfaM9E7SG4LpkHRBoLGf9Go6qSnBno8HRKXnes7doqEukgq4bCq59nKfR7KX6Uorknysa8EXyHoxEaRhzGo57tLn4gduLkaE7S9ke9RtpBjgauaeRKpu4RcoX6y4cRaxuGzjkKuyzedXtkra8qSbe47LueyonxtgoEorhpkEoaHLkkResXyKR4U4K996f4EqB7CRLoKGuBjXorsAxnrpH9poqrSAEo6ef7XLGXHyK9R9SLregxfaM6XxH';
+  //
+  // auth.getAccessToken(code, function() {
+  //     console.log(arguments);
+  // }, function() {
+  //     console.log(arguments);
+  // });
 };
 
 function testAmax() {
@@ -175,12 +181,12 @@ function testUssd() {
     });
 };
 
-// testAuthentication();
+testAuthentication();
 // testAmax();
 // testBinarySms();
 // testLocation();
 // testPayment();
-testSms();
+// testSms();
 // testSubscriber();
 // testUssd();
 

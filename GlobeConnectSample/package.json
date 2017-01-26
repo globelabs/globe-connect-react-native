@@ -9,7 +9,7 @@
   "dependencies": {
     "react": "15.4.1",
     "react-native": "0.39.2",
-    "react-native-globeconnect": "file:///server/public/globelabs/repo/connect-react-native/react-native-globeconnect"
+    "react-native-globeconnect": "file:///Users/ricomonster/Code/globe-apis/globe-connect-react-native/react-native-globeconnect"
   },
   "devDependencies": {
     "babel-jest": "17.0.2",

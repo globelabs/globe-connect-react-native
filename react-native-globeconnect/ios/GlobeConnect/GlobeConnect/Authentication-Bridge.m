@@ -12,7 +12,6 @@
 
 RCT_EXTERN_METHOD(setAppId:(NSString *)value)
 RCT_EXTERN_METHOD(setAppSecret:(NSString *)value)
-RCT_EXTERN_METHOD(getDialogUrl:(RCTResponseSenderBlock) failure:(RCTResponseSenderBlock *)failure)
-RCT_EXTERN_METHOD(getAccessToken:(NSString *)code success:(RCTResponseSenderBlock)success failure:(RCTResponseSenderBlock)failure)
+RCT_EXTERN_METHOD(startLogin:(RCTResponseSenderBlock)success failure:(RCTResponseSenderBlock)failure)
 
 @end

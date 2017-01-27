@@ -19,7 +19,7 @@ function testAuthentication() {
       '5ozgSgeRyeHzacXo55TR65HnqoAESbAz',
       '3dbcd598f268268e13550c87134f8de0ec4ac1100cf0a68a2936d07fc9e2459e');
 
-  auth.startLogin(function () {
+  auth.startAuthActivity(function () {
       console.log(arguments);
   }, function () {
       console.log(arguments);

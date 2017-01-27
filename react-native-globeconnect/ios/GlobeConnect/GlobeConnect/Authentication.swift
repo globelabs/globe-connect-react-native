@@ -40,8 +40,8 @@ class Authentication: NSObject, SFSafariViewControllerDelegate {
         return self
     }
     
-    @objc(startLogin:failure:)
-    func startLogin(
+    @objc(startAuthActivity:failure:)
+    func startAuthActivity(
         _ success: RCTResponseSenderBlock? = nil,
         _ failure: RCTResponseSenderBlock? = nil
         ) -> Authentication {

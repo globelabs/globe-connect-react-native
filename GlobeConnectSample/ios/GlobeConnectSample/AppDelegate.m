@@ -34,4 +34,9 @@
   return YES;
 }
 
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
+  [[NSNotificationCenter defaultCenter] postNotificationName: @"globeLabsConnectedRedirect" object: url];
+  return YES;
+}
+
 @end

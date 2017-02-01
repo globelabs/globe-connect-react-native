@@ -1,6 +1,6 @@
 {
   "name": "react-native-globeconnect",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Globe Connect API for React Native platform",
   "main": "GlobeConnect.js",
   "scripts": {

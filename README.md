@@ -3,7 +3,7 @@
 
 ### Setting Up
 
-Please refer to this [link](https://github.com/globelabs/globe-connect-react-native/blob/master/react-native-globeconnect/instructions/installation.md) for the detailed installation of Globe Connect React Native SDK.
+Please refer to this <a target="_blank" href="https://github.com/globelabs/globe-connect-react-native/blob/master/react-native-globeconnect/instructions/installation.md">link</a> for the detailed installation of Globe Connect React Native SDK.
 
 ### Authentication
 
@@ -422,7 +422,7 @@ location.getLocation(function() {
 
 #### Overview
 
-TODO
+Subscriber Data Query API interface allows a Web application to query the customer profile of an end user who is the customer of a mobile network operator.
 
 #### Subscriber Balance
 
